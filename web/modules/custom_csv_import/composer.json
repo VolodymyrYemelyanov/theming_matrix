@@ -1,0 +1,12 @@
+{
+  "name": "drupal/custom_csv_import",
+  "description": "An API module to hold the Drupal 8 plugin manager for layouts.",
+  "type": "drupal-custom-module",
+  "license": "GPL-2.0+",
+  "keywords": ["php", "layout"],
+  "homepage": "https://www.drupal.org/project/layout_plugin",
+  "minimum-stability": "dev",
+  "require": {
+    "league/csv": "~8.2"
+  }
+}

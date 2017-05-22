@@ -1,0 +1,5 @@
+name: 'Custom CSV import'
+description: My first custom plugin - CSV
+type: module
+core: 8.x
+version: 1.x

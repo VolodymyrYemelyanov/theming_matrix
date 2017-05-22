@@ -1,0 +1,8 @@
+name: DS field
+description: Shows the nomber of words (my custom)
+type: module
+version: 1.x
+core: 8.x
+package: Examples
+dependencies:
+  - ds
