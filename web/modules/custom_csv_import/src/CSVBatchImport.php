@@ -167,8 +167,6 @@ class CSVBatchImport {
                 }
             }
         }
-
-
     }
 
     public function taxTerm($data, $lang, $voc) {
@@ -237,5 +235,3 @@ class CSVBatchImport {
         drupal_set_message($message);
     }
 }
-
-
