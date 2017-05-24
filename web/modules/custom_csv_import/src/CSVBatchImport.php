@@ -138,7 +138,6 @@ class CSVBatchImport {
                     'Sandals' => 'Сандалі',
                 ];
                 $category = isset($transl_tax_cat[$row['category']]) ? $transl_tax_cat[$row['category']] : '';
-                xhprof_enable(XHPROF_FLAGS_CPU + XHPROF_FLAGS_MEMORY);
                 $node_es = $node->addTranslation('uk');
                 $node_es->title = $row['product_name'];
                 $node_es->body->value = $this->makeBody($row['description'], $action, 'uk');
@@ -156,12 +155,6 @@ class CSVBatchImport {
                     '%count' => $context['sandbox']['progress'],
                     '%max' => $context['sandbox']['max']
                 ]);
-                $xhprof_data = xhprof_disable();
-                include_once "/var/www/xhprof-0.9.2/xhprof_lib/utils/xhprof_lib.php";
-                include_once "/var/www/xhprof-0.9.2/xhprof_lib/utils/xhprof_runs.php";
-                $xhprof_runs = new XHProfRuns_Default();
-                $run_id = $xhprof_runs->save_run($xhprof_data, "test");
-                // /xhprof
                 if ($context['sandbox']['progress'] < $context['sandbox']['max']) {
                     $context['finished'] = $context['sandbox']['progress'] / $context['sandbox']['max'];
                 }
