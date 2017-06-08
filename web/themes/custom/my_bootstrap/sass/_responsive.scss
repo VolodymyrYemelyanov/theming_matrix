@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px) {
+
+  /***********************
+      ABOUT US SECTION
+   ***********************/
+
+  .skill-about-us-img {
+    display: none;
+  }
+
+  .views-col {
+    width: 80%;
+  }
+
+  .views-col {
+    .img-responsive {
+      margin: 0 auto;
+    }
+  }
+
+  .skill-about-us-see-more {
+    margin: 0 auto;
+  }
+
+  /* забрати */
+  body {
+    background-color: white;
+  }
+}

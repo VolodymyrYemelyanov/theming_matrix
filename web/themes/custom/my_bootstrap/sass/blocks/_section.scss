@@ -1,0 +1,43 @@
+/***********************
+     HEADER SECTION
+ ***********************/
+
+h1.title-slide-first::after {
+  display: block;
+  position: absolute;
+  content: " ";
+  height: 4px;
+  width: 150px;
+  background-color: #00cb79;
+  left: 34%;
+  top: 74px;
+}
+
+
+
+  /***********************
+      ABOUT US SECTION
+   ***********************/
+#block-views-block-new-about-us-block-1 .block-title {
+  text-align: center;
+  background: #00cb79;
+  color: #fff;
+  width: 306px;
+  height: 116px;
+  margin: 0 auto;
+}
+
+  .skill-about-us-see-more a {
+    background-image: url(../image/skill_photo/folder.png);
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+  }
+
+  /*підправити розміри кнопки згідно PSD макета*/
+  .skill-about-us-see-more{
+    border: 3px solid black;
+    width: 200px;
+    height: 59px;
+    padding: 17px 24px 17px 24px;
+
+  }

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* line 2, ../sass/_default-general-styles.scss */
+body {
+  margin: 0;
+  background-color: aqua;
+}
+
+/* line 7, ../sass/_default-general-styles.scss */
+body .main-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1, ../sass/blocks/_header.scss */
+.navbar-default {
+  position: absolute;
+  z-index: 1;
+  margin: 1% 0 0 11.3%;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* line 9, ../sass/blocks/_header.scss */
+.img-slide-first {
+  position: relative;
+}
+
+/* line 13, ../sass/blocks/_header.scss */
+.title-slide-first {
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  margin: 24% 0 0 22%;
+  font-size: 3em;
+}
+
+/* line 21, ../sass/blocks/_header.scss */
+.description-slide-first {
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  margin: 31% 31.8% 44.8% 23.8%;
+  text-align: center;
+}
+
+/* line 29, ../sass/blocks/_header.scss */
+.button-slide-first {
+  position: absolute;
+  z-index: 1;
+  margin: 40% 30% 0 42.4%;
+}
+
+/* line 35, ../sass/blocks/_header.scss */
+.button-slide-first a {
+  color: #fff;
+}
+
+/* line 43, ../sass/blocks/_header.scss */
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+/* line 51, ../sass/blocks/_header.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+/***********************
+     HEADER SECTION
+ ***********************/
+/* line 5, ../sass/blocks/_section.scss */
+h1.title-slide-first::after {
+  display: block;
+  position: absolute;
+  content: " ";
+  height: 4px;
+  width: 150px;
+  background-color: #00cb79;
+  left: 34%;
+  top: 74px;
+}
+
+/***********************
+    ABOUT US SECTION
+ ***********************/
+/* line 21, ../sass/blocks/_section.scss */
+#block-views-block-new-about-us-block-1 .block-title {
+  text-align: center;
+  background: #00cb79;
+  color: #fff;
+  width: 306px;
+  height: 116px;
+  margin: 0 auto;
+}
+
+/* line 30, ../sass/blocks/_section.scss */
+.skill-about-us-see-more a {
+  background-image: url(../image/skill_photo/folder.png);
+  background-repeat: no-repeat;
+  padding: 0 0 0 30px;
+}
+
+/*підправити розміри кнопки згідно PSD макета*/
+/* line 37, ../sass/blocks/_section.scss */
+.skill-about-us-see-more {
+  border: 3px solid black;
+  width: 200px;
+  height: 59px;
+  padding: 17px 24px 17px 24px;
+}
+
+@media screen and (max-width: 480px) {
+  /***********************
+      ABOUT US SECTION
+   ***********************/
+  /* line 7, ../sass/_responsive.scss */
+  .skill-about-us-img {
+    display: none;
+  }
+
+  /* line 11, ../sass/_responsive.scss */
+  .views-col {
+    width: 80%;
+  }
+
+  /* line 16, ../sass/_responsive.scss */
+  .views-col .img-responsive {
+    margin: 0 auto;
+  }
+
+  /* line 21, ../sass/_responsive.scss */
+  .skill-about-us-see-more {
+    margin: 0 auto;
+  }
+
+  /* забрати */
+  /* line 26, ../sass/_responsive.scss */
+  body {
+    background-color: white;
+  }
+}

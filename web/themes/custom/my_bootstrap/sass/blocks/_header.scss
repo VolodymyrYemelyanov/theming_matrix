@@ -1,0 +1,56 @@
+.navbar-default {
+  position: absolute;
+  z-index: 1;
+  margin: 1% 0 0 11.3%;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.img-slide-first {
+  position: relative;
+}
+
+.title-slide-first{
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  margin: 24% 0 0 22%;
+  font-size: 3em;
+}
+
+.description-slide-first  {
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  margin: 31% 31.8% 44.8% 23.8%;
+  text-align: center;
+}
+
+.button-slide-first {
+  position: absolute;
+  z-index: 1;
+  margin: 40% 30% 0 42.4%;
+}
+
+.button-slide-first a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+
+}
+.navbar-default {
+  .navbar-brand {
+    color: #fff;
+  }
+}
+
+  .navbar-default {
+    .navbar-nav {
+      & > li {
+        & > a {
+          color: #fff;
+        }
+      }
+    }
+  }
