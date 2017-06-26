@@ -1,0 +1,203 @@
+
+/***********************
+    ABOUT US SECTION
+ ***********************/
+section#block-views-block-new-about-us-block-1{
+  .block-title {
+    text-align: center;
+    background: #2ecc71;
+    color: #fff;
+    width: 306px;
+    height: 116px;
+    margin: 0 auto 80px;
+  }
+  margin: 0 11%;
+}
+
+section#block-views-block-skill-block-1 {
+  margin: 95px 11%;
+}
+
+.skill-about-us-title {
+  font-weight: bold;
+  font-size: 1.875vw;
+  margin-bottom: 67px;
+}
+
+.skill-about-us-title::after {
+  display: block;
+  position: absolute;
+  content: " ";
+  background-color: #2ecc71;
+  height: 3px;
+  width: 50px;
+  margin: 20px 0 0 39.43vw;
+}
+
+.field-content.skill-about-us-img {
+  float: left;
+  margin: 0 62px 0 0;
+}
+
+.skill-about-us-see-more {
+  a {
+    background-image: url(../image/skill_photo/folder.png);
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    color: #393c41;
+    text-decoration: none;
+  }
+}
+
+.skill-about-us-see-more:hover{
+  background-color: #2ecc71;
+  border: 2px solid transparent;
+  a {
+    background-image: url(../image/skill_photo/folder.png);
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    color: #fff;
+  }
+}
+
+
+
+/*підправити розміри кнопки згідно PSD макета*/
+.skill-about-us-see-more {
+  border: 3px solid black;
+  width: 200px;
+  height: 59px;
+  padding: 17px 24px 17px 24px;
+  display: inline-block;
+}
+
+.about-skill-section {
+  text-align: center;
+}
+
+
+
+.skill-about-us-mission-skill-client {
+  border-left: 3px solid #2ecc71;
+  margin: 50px 34px 53px 39.43vw;
+  padding: 0 0 0 17px;
+}
+
+.field-content.skill-about-us-img::before {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 29.5vw;
+  width: 29.5vw;
+  background-color: #2ecc71;
+  z-index: -1;
+}
+
+.skill-about-us-img {
+  img {
+    width: 29.5vw;
+    margin: 5.1vw 0 0 5.1vw;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* Photography-design-marketing*/
+
+.skill-img {
+  /*width: 33.333333333333%;*/
+  margin: 0 auto;
+}
+
+.skill-img img {
+  margin: 0 auto;
+  min-width: 100px;
+}
+
+.skill-description {
+  margin: 0 10px;
+  p {
+    /*width: 268px;*/
+    color: #bfbfbf;
+    margin: 0 auto;
+    font-weight: 700;
+  }
+}
+
+.col-md-4.photo-design-marketing.views-row {
+  max-width: 281px;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+    /*******************************
+        RECENT TRAVAILLES SECTION
+     *******************************/
+
+#block-views-block-recent-travailles-block-1 {
+  .views-exposed-form {
+    .fieldset-wrapper{
+      text-align: center;
+      .control-label {
+        margin: 0 49px;
+      }
+    }
+    .form-radio{
+      display: none;
+    }
+  }
+}
+
+#block-views-block-recent-travailles-block-1 {
+  .views-exposed-form {
+    .fieldset-wrapper {
+      .control-label:hover {
+        color: #2ecc71;
+      }
+    }
+  }
+}
+
+.recant-works-title-body-wrapper {
+  z-index: 5;
+  p {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+
+.recant-works-title-body-wrapper {
+  a::after {
+    display: block;
+    position: absolute;
+    content: " ";
+    background-color: #2ecc71;
+    height: 3px;
+    width: 50px;
+  }
+}
+
+.recant-works-title-body-wrapper{
+  display: none;
+  position: absolute;
+  margin: -90px 0;
+}
+
+#block-views-block-recent-travailles-block-1 {
+  .views-col {
+    &:hover {
+      opacity: .5;
+      .recant-works-title-body-wrapper {
+        display: block;
+      }
+    }
+  }
+}

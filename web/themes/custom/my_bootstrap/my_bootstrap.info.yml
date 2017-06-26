@@ -7,8 +7,10 @@ description: 'This is Bootstrap Subtheme. Uses the jsDelivr CDN for all CSS and 
 package: 'Bootstrap'
 
 regions:
+  header_first: 'Haeder first'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
+  header_second: 'Header second'
   header: 'Top Bar'
   highlighted: 'Highlighted'
   help: 'Help'
@@ -21,3 +23,5 @@ regions:
 
 libraries:
   - 'my_bootstrap/global-styling'
+  - 'my_bootstrap/font_josefin'
+  - 'my_bootstrap/global-scripts'

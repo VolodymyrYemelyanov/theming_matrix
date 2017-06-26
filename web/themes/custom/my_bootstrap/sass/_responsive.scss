@@ -1,4 +1,122 @@
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 1600px) {
+
+}
+@media screen and (max-width: 1600px) {
+
+}
+
+@media screen and (max-width: 933px) {
+}
+
+@media screen and (min-width: 934px) {
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+  /***********************
+       HEADER SECTION
+    ***********************/
+
+  //#navbar-collapse {
+  //  ul.navbar-nav {
+  //    float: right;
+  //    text-transform: uppercase;
+  //    font-size: 12px;
+  //    margin: 0;
+  //    font-family: "Josefin Sans", sans-serif;
+  //    font-weight: 700;
+  //    display: block;
+  //  }
+  //}
+
+  /*TEXT OVER SLIDER*/
+  .owl-slider-wrapper {
+    .over-text-welcome-main-slider {
+      h2.title-welcome-main-slider::after{
+        height: 3px;
+      }
+    }
+  }
+
+  /* Photography-design-marketing*/
+  section#block-views-block-skill-block-1 {
+    //margin: 95px 0;
+  }
+
+
+  /*PAGINATION BUTTON*/
+  .owl-theme{
+    .owl-controls{
+      .owl-pagination{
+        margin-top: -9vw;
+        span {
+          width: 6px;
+          height: 6px;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 568px) {
+
+  /***********************
+       HEADER SECTION
+   ***********************/
+
+  header.navbar{
+    .header-first{
+      a.navbar-brand {
+        text-align: center;
+        color: white;
+      }
+    }
+  }
+
+  /*TEXT OVER SLIDER*/
+  .owl-slider-wrapper {
+    .over-text-welcome-main-slider {
+      .title-welcome-main-slider{
+      font-size: 6.3vw;
+      }
+      h2.title-welcome-main-slider::after{
+        height: 2.5px;
+        top: 13.2vw;
+      }
+      .description-main-slider{
+        font-size: 1.9vw;
+        width: 76%;
+        padding: 0 5.5%;
+      }
+      .learn-more-button-main-slider{
+        border: 1.4px solid #fff;
+        margin: 12px auto 0;
+        a {
+          font-size: 1.9vw;
+          padding: 0.5vw 0;
+        }
+      }
+    }
+  }
+
+  /*PAGINATION BUTTON*/
+  .owl-theme{
+    .owl-controls{
+      .owl-pagination{
+        margin-top: -10vw;
+        span {
+          width: 5px;
+          height: 5px;
+        }
+      }
+    }
+  }
+
 
   /***********************
       ABOUT US SECTION
@@ -8,6 +126,18 @@
     display: none;
   }
 
+  .skill-about-us-title {
+    font-size: 4.78vw;
+  }
+
+  /*прописати кращий шлях, не просто 'p'*/
+  p {
+    font-size: 1.75vw;
+  }
+
+  .skill-about-us-mission-skill-client {
+    margin: 50px 34px 53px 0;
+  }
   .views-col {
     width: 80%;
   }
@@ -19,11 +149,39 @@
   }
 
   .skill-about-us-see-more {
+    display: block;
     margin: 0 auto;
   }
 
-  /* забрати */
+  .views-view-grid .about-skill-section {
+    clear: both;
+    /*width: 100%;*/
+    margin: 0 auto;
+  }
+
+  .col-md-4.photo-design-marketing.views-row {
+    width: 100%;
+    margin: 0 0 50px;
+    text-align: center;
+  }
+
+  /* видалити */
   body {
     background-color: white;
   }
+
+  /************************
+     OUR NEWS SECTION
+ ************************/
+  #block-views-block-our-news-block-2 {
+    display: none;
+  }
+
+  #block-views-block-our-news-block-1 {
+    display: block;
+  }
 }
+
+
+
+

@@ -2,3 +2,13 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+
+font_josefin:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700': {type: external}
+
+global-scripts:
+  version: VERSION
+  js:
+    js/scripts.js: {}

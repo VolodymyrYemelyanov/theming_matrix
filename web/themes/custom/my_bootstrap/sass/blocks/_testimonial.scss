@@ -1,0 +1,47 @@
+.wrapper-testimonial-text {
+ width: 27.3vw;
+ position: absolute;
+ right: 12vw;
+ margin: -28vw 0 0 0px;
+}
+
+.wrapper-testimonial-text:before {
+  content: open-quote;
+  position: absolute;
+  top: -10.4vw;
+  font-size: 14vw;
+  color: #94bad7;
+}
+
+.wrapper-testimonial-text {
+  .testimonial-description {
+    p {
+      color: #878f9c;
+      line-height: 1.2;
+    }
+  }
+}
+
+.wrapper-testimonial-text {
+  .testimonial-client-name {
+    text-align: right;
+    margin-top: 2vw;
+    a {
+      color: #393c41;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 2vw;
+      font-weight: 700;
+    }
+    a:hover{
+      text-decoration: none;
+    }
+    }
+  .testimonial-client-profession {
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.86vw;
+    color: #aaa;
+  }
+}
+
